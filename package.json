@@ -1,0 +1,27 @@
+{
+  "name": "ECMAScript6-Sample",
+  "version": "1.0.0",
+  "description": "ECMAScript6 Sample",
+  "main": "src/main/ec6/user.js",
+  "scripts": {
+    "test": "mocha --compilers js:espower-babel/guess test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tatsu07/ECMAScript6-Sample.git"
+  },
+  "keywords": [
+    "ECMAScript6"
+  ],
+  "author": "tatsu07",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tatsu07/ECMAScript6-Sample/issues"
+  },
+  "homepage": "https://github.com/tatsu07/ECMAScript6-Sample",
+  "devDependencies": {
+    "babel": "^5.6.11",
+    "espower-babel": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
